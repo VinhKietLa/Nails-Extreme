@@ -1,46 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital@0;1&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
 /*Navbar styles */
 
 .navbar-collapse {
-    flex-grow: 0!important;
+  flex-grow: 0 !important;
 }
 
 .navbar {
-    background: #7E3939!important;
-    color: white;
+  background: #7e3939 !important;
+  color: white;
 }
 
 .navIcons {
-    align-items: center;
+  align-items: center;
 }
 
-.instagram, .facebook {
-    margin-right: 1rem;
-    color:white;
+.instagram,
+.facebook {
+  margin-right: 1rem;
+  color: white;
 }
 
 .nav-link {
-    color: white!important;
+  color: white !important;
 }
 
 .navHeading {
-    margin-left:13rem;
+  margin-left: 10rem;
 }
 
-/*About us section styles */
-#aboutUs{
-    margin-top: 7rem;
-}
-.aboutShop {
-    justify-content: center;
-    align-items: center;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
 }
 
-.aboutText {
-    font-size: 1.5rem;
+/*Hero image About us section styles */
+.treatmentBtn {
+  background-color: #602d2d;
+  color: white;
+}
+.treatmentBtn:hover {
+  background-color: #7e3939;
+  color: white;
 }
 
 /*Treatments section styles */
 
-.treatments {
-    margin-top:4rem;
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+}
+
+.slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  color:black;
+}
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-image {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+}
+
+/*Find us section */
+
+/* Footer */
+footer {
+  margin-top:1.5rem;
+  background: #7e3939;
+}
+
+footer p {
+  margin:0;
+  color: white;
+  text-align: center;
 }

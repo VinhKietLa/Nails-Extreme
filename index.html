@@ -37,13 +37,10 @@
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About us</a>
+                            <a class="nav-link" href="#treatments">Treatments</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Treatments</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacts</a>
+                            <a class="nav-link" href="#findUs">Find us</a>
                         </li>
                     </ul>
                 </div>
@@ -51,8 +48,17 @@
         </div>
     </nav>
 
-    <!--About us-->
+    <!--Hero image about us-->
     <div class="container-fluid px-0">
+        <div class="banner">
+            <div class="hoursAddress"> <span><strong>Opening hours:</strong> Mon-Sat 10AM-7PM</span>
+                <span><strong>Address:</strong> 441 Bromley Rd, Bromley BR1 4PH</span>
+            </div>
+            <div class="appointments">
+                <span>Walk in appointments available <strong>Phone:</strong> 020 8285 1180</span>
+            </div>
+
+        </div>
         <div class="row align-items-center vh-100 justify-content-center"
             style="background-image: url('./assets/HeroImg.svg'); background-size: cover; background-position: center;">
             <div class="col-md-6 text-center text-md-start">
@@ -60,7 +66,7 @@
                 <p class="text-white">a family-owned and operated business, we take pride in offering a wide range of
                     services, including nail spa, beauty salon, and waxing treatments, all under one roof.</p>
                 <div class="d-flex justify-content-center">
-                    <a href="#treatments" class="btn btn-primary">Treatments</a>
+                    <a href="#treatments" class="btn treatmentBtn">Treatments</a>
                 </div>
             </div>
         </div>
@@ -71,12 +77,67 @@
 
     <div class="container" id="treatments">
         <h1 class="text-center">Treatments</h1>
+        <div class="row text-center">
+            <div class="col">
+                test
+            </div>
+            <div class="col">
+                <div class="slideshow-container">
+                    <div class="slide">
+                        <img src="./assets/image1.png" style="width:100%" data-bs-toggle="modal"
+                            onclick="openImageModal(this)">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/image2.png" style="width:100%" data-bs-toggle="modal"
+                            onclick="openImageModal(this)"">
+                    </div>
+                    <div class=" slide">
+                        <img src="./assets/image3.png" style="width:100%" data-bs-toggle="modal"
+                            onclick="openImageModal(this)"">
+                    </div>
+                    <a class=" prev" onclick="changeSlide(-1)">&#10094;</a>
+                        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                    </div>
+                    <div class="modal" tabindex="-1" role="dialog" id="imageModal">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="" id="modalImage" class="modal-image" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </div>
 
-    </div>
+        <!--Find us-->
 
+        <div class="container" id="findUs">
+            <h1 class="text-center">HOW TO FIND US</h1>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d159016.60207322126!2d-0.13498390998422596!3d51.483224633235466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487601fc18cf5647%3A0x26fc15713823561a!2sNails%20Extreme!5e0!3m2!1sen!2suk!4v1680970268571!5m2!1sen!2suk"
+                            class="map-responsive" width=100% height=500px” frameborder=”0” allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p>Address: 441 Bromley Rd, Bromley BR1 4PH</p>
+                    <p>Telephone: 020 8285 1180</p>
+                    <p>Opening hours: Mon-Sat 10AM-7PM</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p> © Nails Extreme 2023</p>
+        </footer>
 
 </body>
+<script src="index.js"></script>
 <script src="https://kit.fontawesome.com/a751a41231.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
     integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
