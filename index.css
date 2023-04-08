@@ -1,3 +1,5 @@
+/*Navbar styles */
+
 .navbar-collapse {
     flex-grow: 0!important;
 }
@@ -18,4 +20,27 @@
 
 .nav-link {
     color: white!important;
+}
+
+.navHeading {
+    margin-left:13rem;
+}
+
+/*About us section styles */
+#aboutUs{
+    margin-top: 7rem;
+}
+.aboutShop {
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutText {
+    font-size: 1.5rem;
+}
+
+/*Treatments section styles */
+
+.treatments {
+    margin-top:4rem;
 }
