@@ -106,6 +106,14 @@ body {
 
 /*Find us section */
 
+#findUs {
+  margin-top: 2rem;
+}
+
+.goTop {
+  text-align: end;
+}
+
 /* Footer */
 footer {
   margin-top:1.5rem;
