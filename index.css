@@ -8,15 +8,22 @@ body {
 }
 
 /*Navbar styles */
-
-.navbar-collapse {
-  flex-grow: 0 !important;
-}
-
 .navbar {
   background: #7e3939 !important;
   color: white;
 }
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.navHeading {
+  margin-right: auto;
+}
+
+#navH1 {
+  font-family: 'Parisienne', cursive;
+}
+
 .liIcon {
   padding:5px;
 }
@@ -31,14 +38,8 @@ body {
 .nav-link {
   color: white !important;
 }
-
-.navHeading {
-  margin-right: auto;
-}
-
-#navH1 {
-  font-family: 'Parisienne', cursive;
-  /* padding-left: 50px; */
+.nav-link:hover {
+  color: black!important;;
 }
 
 
@@ -64,6 +65,24 @@ body {
   background-color: #7e3939;
   color: white;
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation-name: fadeIn;
+  animation-duration: 3s; /* You can adjust the duration to your preference */
+  animation-fill-mode: forwards;
+}
+
+
+
 
 /*Treatments section styles */
 #treatments {
