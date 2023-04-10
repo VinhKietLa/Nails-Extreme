@@ -1,8 +1,12 @@
+/*Google font imports*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 /*Navbar styles */
 
 .navbar-collapse {
@@ -29,7 +33,7 @@ body {
 }
 
 .navHeading {
-  margin-left: 10rem;
+  margin-left: 7rem;
 }
 
 #navH1 {
@@ -39,7 +43,12 @@ body {
 .banner {
   display: flex;
   justify-content: space-between;
-  background-color: antiquewhite;
+  background-color: #fdf1e2;
+}
+
+#bannerIcon {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 /*Hero image About us section styles */
@@ -143,7 +152,11 @@ body {
 padding-top:1.5rem;  
 padding-left: 10.5rem;
 padding-right: 10.5rem;
-background-color: antiquewhite;
+background-color: #fdf1e2;
+}
+
+#findUsIcon {
+  padding-right: 1rem;
 }
 
 .goTop {
