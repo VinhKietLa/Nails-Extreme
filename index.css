@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital@0;1&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 /*Navbar styles */
 
@@ -49,7 +48,14 @@ body {
 }
 
 /*Treatments section styles */
-
+#treatments {
+  background-color: #7e3939;
+  color: white;
+  padding-bottom: 1rem;
+}
+#treatments h1 {
+  padding-top: 2rem;
+}
 
 /* Treatments table */
 
@@ -116,7 +122,8 @@ body {
 /*Find us section */
 
 #findUs {
-  margin-top: 2rem;
+padding-top:1.5rem;  
+background-color: antiquewhite;
 }
 
 .goTop {
@@ -125,7 +132,7 @@ body {
 
 /* Footer */
 footer {
-  margin-top:1.5rem;
+  padding:1.5rem;
   background: #7e3939;
 }
 
