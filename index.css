@@ -17,6 +17,9 @@ body {
   background: #7e3939 !important;
   color: white;
 }
+.liIcon {
+  padding:5px;
+}
 
 .instagram,
 .facebook {
