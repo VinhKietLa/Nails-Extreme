@@ -78,6 +78,13 @@ body {
   height: 20px; /* Adjust this value to increase or decrease the spacing */
 }
 
+td {
+  color: rgb(226, 226, 226);
+}
+
+.price {
+  text-align: center;
+}
 
 /*Treatments image gallery */
 .slideshow-container {
