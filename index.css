@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -31,6 +32,10 @@ body {
   margin-left: 10rem;
 }
 
+#navH1 {
+  font-family: 'Parisienne', cursive;
+}
+
 .banner {
   display: flex;
   justify-content: space-between;
@@ -39,10 +44,10 @@ body {
 
 /*Hero image About us section styles */
 .welcomeH1 {
-  font-size: 3.5rem;
+  font-size: 3.25rem;
   color: white;
   font-weight: bold;
-  text-shadow: 1px 1px 2px black;
+
 }
 
 .welcomeP{
@@ -136,6 +141,8 @@ body {
 
 #findUs {
 padding-top:1.5rem;  
+padding-left: 10.5rem;
+padding-right: 10.5rem;
 background-color: antiquewhite;
 }
 
