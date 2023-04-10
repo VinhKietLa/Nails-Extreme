@@ -18,13 +18,10 @@ body {
   color: white;
 }
 
-.navIcons {
-  align-items: center;
-}
-
 .instagram,
 .facebook {
-  margin-right: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
   color: white;
 }
 
@@ -33,23 +30,14 @@ body {
 }
 
 .navHeading {
-  margin-left: 7rem;
+  margin-right: auto;
 }
 
 #navH1 {
   font-family: 'Parisienne', cursive;
+  /* padding-left: 50px; */
 }
 
-.banner {
-  display: flex;
-  justify-content: space-between;
-  background-color: #fdf1e2;
-}
-
-#bannerIcon {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
 
 /*Hero image About us section styles */
 .welcomeH1 {
