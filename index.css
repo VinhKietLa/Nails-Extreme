@@ -74,6 +74,11 @@ body {
 
 /* Treatments table */
 
+#treatments {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .spacing-row {
   height: 20px; /* Adjust this value to increase or decrease the spacing */
 }
@@ -91,6 +96,7 @@ td {
   position: relative;
   width: 100%;
   max-width: 800px;
+  height:100px;
   margin: auto;
 }
 
@@ -101,7 +107,7 @@ td {
 
 .slide img {
   width: 100%;
-  height: 400px;
+  height: 600px;
   object-fit: cover;
 }
 
