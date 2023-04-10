@@ -50,6 +50,15 @@ body {
 
 /*Treatments section styles */
 
+
+/* Treatments table */
+
+.spacing-row {
+  height: 20px; /* Adjust this value to increase or decrease the spacing */
+}
+
+
+/*Treatments image gallery */
 .slideshow-container {
   position: relative;
   width: 100%;
