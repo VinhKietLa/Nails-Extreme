@@ -187,10 +187,17 @@ background-color: #fdf1e2;
 
 .goTop {
   text-align: end;
+  padding-bottom: 1rem;
 }
 
 .embed-responsive {
   border: 1px solid #7e3939;
+}
+
+#scrollUpButton {
+  background-color: #7e3939;
+  color: white;
+  
 }
 
 /* Footer */
