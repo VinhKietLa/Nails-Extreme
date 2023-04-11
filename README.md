@@ -20,4 +20,6 @@ I recreated a fully resposive website for a client who owns a Nail Spa in Bromle
 
 ## Contact
 
-If you have any questions, please do not hesitate to contact me via email at kietla@live.co.uk or via linkedin :)
+If you have any questions or like what you see, I'm happy to help!
+
+Please do not hesitate to contact me via email at kietla@live.co.uk or via linkedin :)
