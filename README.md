@@ -2,7 +2,7 @@
 
 ## Description
 
-I recreated a website for a client.
+I recreated a fully resposive website for a client who owns a Nail Spa.
 
 ## Tech stack
 
@@ -13,13 +13,9 @@ I recreated a website for a client.
 - Font Awesome
 
 ## Preview of application
-[Click here for a Live preview](https://www.vinhkietla.co.uk/)
+[Click here for a Live preview](https://www.nails-extreme.co.uk)
 
-![screenshot of application](./public/assets/reactsiteimg.png)
-
-# Future Development
-
-- Confetti
+![screenshot of application](./assets/screenshot.png)
 
 ## Contact
 
