@@ -2,7 +2,7 @@
 
 ## Description
 
-I recreated a fully resposive website for a client who owns a Nail Spa.
+I recreated a fully resposive website for a client who owns a Nail Spa in Bromley. This includes full design and website implementation. 
 
 ## Tech stack
 
@@ -11,6 +11,7 @@ I recreated a fully resposive website for a client who owns a Nail Spa.
 - Bootstrap
 - Javascript
 - Font Awesome
+- Figma
 
 ## Preview of application
 [Click here for a Live preview](https://www.nails-extreme.co.uk)
