@@ -2,7 +2,7 @@
 
 ## Description
 
-I recreated a fully resposive website for a client who owns a Nail Spa in Bromley. This includes full design and website implementation. 
+I recreated a fully responsive website for a client who owns a Nail Spa in Bromley. This includes full design and website implementation. 
 
 ## Tech stack
 
