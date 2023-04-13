@@ -190,6 +190,10 @@ background-color: #fdf1e2;
   padding-right: 1rem;
 }
 
+.mapContainer {
+  padding-bottom: 0.5rem!important;
+}
+
 .goTop {
   text-align: end;
   padding-bottom: 1rem;
