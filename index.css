@@ -36,6 +36,11 @@ body {
   color: white;
 }
 
+.instagram:hover,
+.facebook:hover {
+  color: black;
+}
+
 .nav-link {
   color: white !important;
 }
@@ -197,7 +202,7 @@ background-color: #fdf1e2;
 #scrollUpButton {
   background-color: #7e3939;
   color: white;
-  
+  border:none;
 }
 
 /* Footer */
