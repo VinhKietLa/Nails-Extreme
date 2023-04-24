@@ -83,7 +83,7 @@ body {
 
 .fade-in {
   animation-name: fadeIn;
-  animation-duration: 3s; /* You can adjust the duration to your preference */
+  animation-duration: 4s; /* You can adjust the duration to your preference */
   animation-fill-mode: forwards;
 }
 
