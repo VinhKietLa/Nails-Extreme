@@ -26,13 +26,13 @@ body {
 }
 
 .liIcon {
-  padding:5px;
+  padding:7px;
 }
 
 .instagram,
 .facebook {
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
   color: white;
 }
 
