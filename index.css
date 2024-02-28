@@ -1,10 +1,10 @@
 /*Google font imports*/
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*Navbar styles */
@@ -21,12 +21,12 @@ body {
 }
 
 #navH1 {
-  font-family: 'Parisienne', cursive;
+  font-family: "Parisienne", cursive;
   margin-bottom: 0;
 }
 
 .liIcon {
-  padding:7px;
+  padding: 7px;
 }
 
 .instagram,
@@ -45,20 +45,19 @@ body {
   color: white !important;
 }
 .nav-link:hover {
-  color: black!important;;
+  color: black !important;
 }
-
 
 /*Hero image About us section styles */
 .welcomeH1 {
   font-size: 3.25rem;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
-
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for better readability */
 }
 
-.welcomeP{
-  color:white;
+.welcomeP {
+  color: #ffffff;
   font-weight: bold;
   text-shadow: 2px 2px 10px black;
 }
@@ -66,9 +65,28 @@ body {
 .treatmentBtn {
   background-color: #602d2d;
   color: white;
+  margin-right: 1rem;
 }
 .treatmentBtn:hover {
-  background-color: #7e3939;
+  background-color: #000000;
+  color: white;
+}
+
+.galleryBtn {
+  background-color: #ba7979;
+  color: white;
+}
+.galleryBtn:hover {
+  background-color: #000000;
+  color: white;
+}
+
+#scrollUpButton {
+  background-color: #ba7979;
+  color: white;
+}
+#scrollUpButton:hover {
+  background-color: #000000;
   color: white;
 }
 
@@ -87,103 +105,40 @@ body {
   animation-fill-mode: forwards;
 }
 
-
 /*Treatments section styles */
-#treatments {
-  background-color: #7e3939;
-  color: white;
-  padding-bottom: 1rem;
+.price-list-container {
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-#treatments h1 {
-  padding-top: 2rem;
+.heading {
+  font-size: 1.5rem;
+  color: #333;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #0e0e0e;
 }
-
-th h3 {
-  padding-top: 1rem;
+.sub-heading {
+  font-weight: bold;
+  text-align: center;
 }
-
-/* Treatments table */
-
-#treatments {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-}
-
-.spacing-row {
-  height: 20px; /* Adjust this value to increase or decrease the spacing */
-}
-
-td {
-  color: rgb(226, 226, 226);
-}
-
 .price {
   text-align: center;
 }
+.service-name,
+.price {
+  padding: 5px 0; /* Spacing for each cell */
+}
 
 /*Treatments image gallery */
-.slideshow-container {
-  position: relative;
-  width: 100%;
-  max-width: 800px;
-  margin: auto;
-}
-
-.slide {
-  display: none;
-  width: 100%;
-}
-
-.slide img {
-  width: 100%;
-  height: 500px;
-  max-width: 100%;
-  max-height: 100%;  
-  object-fit: cover;
-}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-  color:black;
-}
-.prev {
-  left: 0;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.modal-image {
-  width: 100%;
-  height: 600px;
-  object-fit: contain;
-}
 
 /*Find us section */
 
 #findUs {
-padding-top:1.5rem; 
-background-color: #fdf1e2;
+  padding-top: 1.5rem;
+  background-color: #fdf1e2;
 }
 
 #findUsIcon {
@@ -191,7 +146,7 @@ background-color: #fdf1e2;
 }
 
 .mapContainer {
-  padding-bottom: 0.5rem!important;
+  padding-bottom: 0.5rem !important;
 }
 
 .goTop {
@@ -206,17 +161,17 @@ background-color: #fdf1e2;
 #scrollUpButton {
   background-color: #7e3939;
   color: white;
-  border:none;
+  border: none;
 }
 
 /* Footer */
 footer {
-  padding:1.5rem;
+  padding: 1.5rem;
   background: #7e3939;
 }
 
 footer p {
-  margin:0;
+  margin: 0;
   color: white;
   text-align: center;
 }
