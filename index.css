@@ -64,7 +64,7 @@ body {
 }
 
 .treatmentBtn {
-  background-color: #602d2d;
+  background-color: #7e3939;
   color: white;
   margin-right: 1rem;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 #scrollUpButton {
-  background-color: #ba7979;
+  background-color: #7e3939;
   color: white;
 }
 #scrollUpButton:hover {
@@ -176,4 +176,31 @@ footer p {
   margin: 0;
   color: white;
   text-align: center;
+}
+/* Default styles for larger devices */
+.carousel-item img {
+  height: 400px; /* Fixed height for larger screens */
+  width: 100%; /* Full width of the container */
+  object-fit: contain;
+}
+
+#galleryCarousel .carousel-inner {
+  height: 400px; /* Match this with the image height for larger devices */
+}
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 768px) {
+  /* Adjust this breakpoint as needed */
+  .carousel-item img {
+    height: auto; /* Auto height to maintain aspect ratio */
+    width: 100%; /* Full width of the container */
+  }
+
+  #galleryCarousel .carousel-inner {
+    height: auto; /* Allow the container height to adjust to the image */
+  }
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
 }
