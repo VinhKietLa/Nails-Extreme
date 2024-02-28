@@ -1,6 +1,7 @@
 /*Google font imports*/
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
 
 body {
@@ -107,11 +108,12 @@ body {
 
 /*Treatments section styles */
 .price-list-container {
-  background-color: #e0e0e0;
+  background-color: #ffffff;
   padding: 20px;
   margin-top: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
 }
 .heading {
   font-size: 1.5rem;
@@ -138,7 +140,7 @@ body {
 
 #findUs {
   padding-top: 1.5rem;
-  background-color: #fdf1e2;
+  background-color: #f0efe8;
 }
 
 #findUsIcon {
