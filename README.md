@@ -18,8 +18,3 @@ I created a fully responsive website for a client who owns a Nail Spa in Bromley
 
 ![screenshot of application](./assets/screenshot.png)
 
-## Contact
-
-If you have any questions or like what you see, I'm happy to help!
-
-Please do not hesitate to contact me via email at kietla@live.co.uk or via linkedin :)
